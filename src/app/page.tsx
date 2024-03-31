@@ -95,7 +95,7 @@ export default function Home() {
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>
-                <Link href='https://www.linkedin.com/in/moeez-abdullah-8414aa231'>
+                <Link href='https://www.linkedin.com/in/moeez-abdullah-02098829b'>
                     LinkedIn Profile
                   </Link>
                 </Button>
