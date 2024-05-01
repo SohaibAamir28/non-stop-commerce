@@ -6,21 +6,22 @@ export default function Home() {
     <>
 
       <VStack bgGradient={[
-    'linear(to-tr, teal.300, yellow.400)',
-    'linear(to-t, blue.200, teal.500)',
-    'linear(to-b, orange.100, purple.300)',
-  ]}
+        'linear(to-tr, teal.300, yellow.400)',
+        'linear(to-t, blue.200, teal.500)',
+        'linear(to-b, orange.100, purple.300)',
+      ]}
         divider={<StackDivider borderColor='gray.200' />}
         spacing={4}
         align='center'
       >
         <Heading as='h2' size='xl' noOfLines={1} bgGradient='linear(to-l, #7928CA, #FF0080)'
-  bgClip='text'
-  fontSize='6xl'
-  fontWeight='extrabold'
->
-          PT-1: First Personal Web Page
+          bgClip='text'
+          fontSize='6xl'
+          fontWeight='extrabold'
+        >
+          PT: 1 & 2: Homepage & Math Quiz App
         </Heading>
+
         <Box >
 
           <Card
@@ -45,8 +46,7 @@ export default function Home() {
               </CardBody>
 
               <CardFooter>
-
-                <Button variant='solid' colorScheme=' linkedin'p={4}
+              <Button variant='solid' colorScheme='linkedin' p={4}
   color='white'
   fontWeight='bold'
   borderRadius='md'
@@ -54,6 +54,18 @@ export default function Home() {
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>
+                <Link href='https://sohaibaamir28.github.io/Math-Quiz-App-Using-JS'>
+                    Math Quiz App
+                  </Link>
+                </Button>
+                <Button variant='solid' colorScheme='google' p={4}
+                  color='white'
+                  fontWeight='bold'
+                  borderRadius='md'
+                  bgGradient='linear(to-r, teal.500, green.500)'
+                  _hover={{
+                    bgGradient: 'linear(to-r, red.500, yellow.500)',
+                  }}>
                   <Link href='https://www.linkedin.com/in/sohaib-aamir'>
                     LinkedIn Profile
                   </Link>
@@ -72,7 +84,7 @@ export default function Home() {
             <Image
               objectFit='cover'
               maxW={{ base: '100%', sm: '200px' }}
-              src ='/moeez-abdullah.jpeg'
+              src='/moeez-abdullah.jpeg'
               alt='Caffe Latte'
             />
 
@@ -87,7 +99,7 @@ export default function Home() {
               </CardBody>
 
               <CardFooter>
-                <Button variant='solid' colorScheme='linkedin' p={4}
+              <Button variant='solid' colorScheme='linkedin' p={4}
   color='white'
   fontWeight='bold'
   borderRadius='md'
@@ -95,7 +107,19 @@ export default function Home() {
   _hover={{
     bgGradient: 'linear(to-r, red.500, yellow.500)',
   }}>
-                <Link href='https://www.linkedin.com/in/moeez-abdullah-02098829b'>
+                <Link href='https://www.quizapp.com'>
+                    Math Quiz App
+                  </Link>
+                </Button>
+                <Button variant='solid' colorScheme='linkedin' p={4}
+                  color='white'
+                  fontWeight='bold'
+                  borderRadius='md'
+                  bgGradient='linear(to-r, teal.500, green.500)'
+                  _hover={{
+                    bgGradient: 'linear(to-r, red.500, yellow.500)',
+                  }}>
+                  <Link href='https://www.linkedin.com/in/moeez-abdullah-02098829b'>
                     LinkedIn Profile
                   </Link>
                 </Button>
@@ -128,17 +152,31 @@ export default function Home() {
 
               <CardFooter>
                 <Button variant='solid' colorScheme='linkedin' p={4}
-  color='white'
-  fontWeight='bold'
-  borderRadius='md'
-  bgGradient='linear(to-r, teal.500, green.500)'
-  _hover={{
-    bgGradient: 'linear(to-r, red.500, yellow.500)',
-  }}>
-                <Link href='https://www.linkedin.com'>
+                  color='white'
+                  fontWeight='bold'
+                  borderRadius='md'
+                  bgGradient='linear(to-r, teal.500, green.500)'
+                  _hover={{
+                    bgGradient: 'linear(to-r, red.500, yellow.500)',
+                  }}>
+                  <Link href='https://muhammad5ali.github.io/Quiz-Program-Using-JS'>
+                    Math Quiz App
+                  </Link>
+                </Button>
+
+                <Button variant='solid' colorScheme='google' p={4}
+                  color='white'
+                  fontWeight='bold'
+                  borderRadius='md'
+                  bgGradient='linear(to-r, teal.500, green.500)'
+                  _hover={{
+                    bgGradient: 'linear(to-r, red.500, yellow.500)',
+                  }}>
+                  <Link href='https://www.linkedin.com/in/muhammad-ali-3791062b2'>
                     LinkedIn Profile
                   </Link>
                 </Button>
+
               </CardFooter>
             </Stack>
           </Card>
